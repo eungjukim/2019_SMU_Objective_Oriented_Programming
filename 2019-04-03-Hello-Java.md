@@ -62,12 +62,12 @@ dir 201410078
 
 	ㆍ컴파일 방법
 
-	```java
-	//저장 장소 지정
-	javac -d classes -sourcepath src src\파일명.java
-	//컴파일
-	java -classpath classes 클래스명
-	```
+```java
+//저장 장소 지정
+javac -d classes -sourcepath src src\파일명.java
+//컴파일
+java -classpath classes 클래스명
+```
 	=> -d : 결과물을 해당 폴더로 이동
 	=> -sourcepath : 소스코드가 존재하는 폴더
 	=> -classpath : 클래스가 저장된 폴더
@@ -88,15 +88,15 @@ dir 201410078
 	ㆍ클래스명은 반드시 대문자로 시작한다.
 
 	ㆍ클래스 생성
-	```java
-	class 클래스명 {
-		타입 변수명;
-		...
-		타입 함수명(인자...) {
-		...
-		}
+```java
+class 클래스명 {
+	타입 변수명;
+	...
+	타입 함수명(인자...) {
+	...
 	}
-	```
+}
+```
 
 ## 5. 생성자(constructor)
 
