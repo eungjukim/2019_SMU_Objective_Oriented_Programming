@@ -60,13 +60,13 @@ class 클래스명 {
 	ㆍ캡슐화는 데이터를 직접적으로 사용하지 못하게 하고, 그 권한을 가시성을 통해 제어한다.
 
 	ㆍ가시성의 종류는 크게 4가지
-	
-	|구분|UML 표현|설명|class|package|subclass|any class|
-	|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-	|public|-|모두 사용 가능|Y|Y|Y|Y|
-	|private|+|나만 사용 가능|Y|Y|Y|N|
-	|protected|#|가족, 상속|Y|Y|N|N|
-	|package|~|친구|class|Y|N|N|N|
+
+|구분|UML 표현|설명|class|package|subclass|any class|
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|public|-|모두 사용 가능|Y|Y|Y|Y|
+|private|+|나만 사용 가능|Y|Y|Y|N|
+|protected|#|가족, 상속|Y|Y|N|N|
+|package|~|친구|class|Y|N|N|N|
 
 
 	ㆍget 함수와 set 함수를 이용해 가시성이 적용된 값을 조회한다.
