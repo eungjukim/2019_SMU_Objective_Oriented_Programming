@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class F2C {
+  public static void f2c(float f) {
+    float fahrenheit = f;
+    float celsius = ((float)5/9)*(fahrenheit-32);
+    System.out.printf("Fahrenheit %.1f is %.1f in Celsius", f, celsius);
+  }
+  public static void main(String[] args) {
+    System.out.println("Enter Fahrenheit: ");
+    Scanner sc = new Scanner(System.in);
+    float f=sc.nextFloat();
+    f2c(f);
+  }
+}
