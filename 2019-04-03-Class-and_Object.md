@@ -66,7 +66,7 @@ class 클래스명 {
 |public|-|모두 사용 가능|Y|Y|Y|Y|
 |private|+|나만 사용 가능|Y|Y|Y|N|
 |protected|#|가족, 상속|Y|Y|N|N|
-|package|~|친구|class|Y|N|N|N|
+|package|~|친구|Y|N|N|N|
 
 
 	ㆍget 함수와 set 함수를 이용해 가시성이 적용된 값을 조회한다.
